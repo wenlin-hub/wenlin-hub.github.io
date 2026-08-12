@@ -10,6 +10,7 @@ document.querySelectorAll('[data-scholar]').forEach(el => {
   else { const separator = el.nextElementSibling; if (separator?.tagName === 'SPAN') separator.hidden = true; el.hidden = true; }
 });
 document.querySelectorAll('[data-orcid]').forEach(el => el.href = s.orcid);
+document.querySelectorAll('[data-ssrn]').forEach(el => el.href = s.ssrn);
 document.querySelectorAll('[data-email]').forEach(el => el.href = `mailto:${s.email}`);
 document.querySelectorAll('[data-email-text]').forEach(el => el.textContent = s.email);
 document.querySelectorAll('[data-secondary-email]').forEach(el => el.href = `mailto:${s.secondaryEmail}`);

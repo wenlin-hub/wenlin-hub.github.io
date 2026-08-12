@@ -10,6 +10,7 @@ window.SITE = {
   secondaryEmail: "w.lin@lancaster.ac.uk",
   scholar: "https://scholar.google.com/citations?user=YOUR_ID",
   orcid: "https://orcid.org/0000-0002-4313-2500",
+  ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2874290",
   cv: "",
   photo: "", // 例如 "photo.jpg"
   about: "I am an Associate Professor at the School of Accountancy, Central University of Finance and Economics. My research interests, publications, and academic experience will be updated soon.",
